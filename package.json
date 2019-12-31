@@ -1,0 +1,21 @@
+{
+  "name": "html-website-watcher",
+  "version": "1.0.0",
+  "keywords": [],
+  "description": "Loads a website and looks for a specific keyword.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ./src/",
+    "start": "node ./out/app.js"
+  },
+  "author": "Earl Ynibble <akumagamo@hotmail.com>",
+  "license": "CC-BY-4.0",
+  "devDependencies": {
+    "@types/node": "^10.10.3"
+  },
+  "config":{
+    "url" : "https://www.win2day.at/gewinner-des-tages",
+    "username" : "anubis2007",
+    "timeout" : 86400000
+  }
+}
